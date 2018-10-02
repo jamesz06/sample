@@ -39,7 +39,8 @@ public class LoginScreen extends AppCompatActivity {
         uname = username.getText().toString();
         pword = password.getText().toString();
 
-        Toast.makeText(this, "Username: " + username.getText().toString() + " " + "Password: " + password.getText().toString(), Toast.LENGTH_SHORT).show();
+//        NAA KOY GIEDIT ANI PARA SAMPLE KUNOHAY NI MISSION!
+        Toast.makeText(this, "MISSION USERNAME: " + username.getText().toString() + " " + "Password: " + password.getText().toString(), Toast.LENGTH_SHORT).show();
 
          if(uname.equals("D123456") && pword.equals("helloworld")){
 
