@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layoutbackground"
+    tools:context=".OnQueue">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="727dp"
+            android:layout_height="347dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="6dp"
+            >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/firstcardview"
+                    android:background="@drawable/background"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/es1"
+                        android:id="@+id/profilepic"
+                        android:layout_marginTop="8dp"
+                        android:layout_gravity="center_horizontal"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="James Anthony Mission"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="italic"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/name"
+                        android:layout_marginTop="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="July 1, 2018"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8:12 AM"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/firstcardview"
+                    android:background="@drawable/background"
+                    android:id="@+id/secondcardview"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/regine"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Regine Lae Soco"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="italic"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="July 1, 2018"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9:30 AM"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        />
+
+                </LinearLayout>
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/secondcardview"
+                    android:id="@+id/thirdcardview"
+                    android:orientation="vertical"
+                    android:background="@drawable/background"
+                    >
+
+                    <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/curl"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="8dp"
+                    />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Karla Cartilla"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="italic"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="July 1, 2018"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1:00 PM"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/thirdcardview"
+                    android:background="@drawable/background"
+                    android:orientation="vertical"
+                    android:id="@+id/fourthcardview"
+                    >
+
+                    <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ben"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="8dp"
+                    />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Benrobin Dizon"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="italic"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="July 1, 2018"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2:08 PM"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_below="@id/firstcardview"
+                    android:background="@drawable/background"
+                    android:orientation="vertical"
+                    android:id="@+id/fifthcardview"
+                    >
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/sophia"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sophia Kyleen"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="italic"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="July 1, 2018"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2:33 PM"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_below="@id/secondcardview"
+                    android:background="@drawable/background"
+                    android:orientation="vertical"
+                    android:layout_toRightOf="@+id/fifthcardview"
+                    android:id="@+id/sixthcardview"
+                    >
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/joshua"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Joshua Lance"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="italic"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="July 1, 2018"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2:53 PM"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/background"
+                    android:orientation="vertical"
+                    android:layout_below="@+id/thirdcardview"
+                    android:layout_toRightOf="@id/sixthcardview"
+                    >
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/liams"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Liam Philip"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="italic"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="July 1, 2018"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3:24 PM"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
